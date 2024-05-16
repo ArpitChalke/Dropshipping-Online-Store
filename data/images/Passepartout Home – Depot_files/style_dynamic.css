@@ -1,0 +1,51 @@
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/assets/custom-styles/general-custom-styles.php depot_mikado_design_styles function */
+.mkd-boxed .mkd-wrapper { background-attachment: fixed;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/assets/custom-styles/general-custom-styles.php depot_mikado_content_styles function */
+.mkd-content .mkd-content-inner > .mkd-full-width > .mkd-full-width-inner { padding-top: 40px;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/assets/custom-styles/general-custom-styles.php depot_mikado_content_styles function */
+.mkd-content .mkd-content-inner > .mkd-container > .mkd-container-inner { padding-top: 40px;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/framework/modules/contactform7/custom-styles/contact-form.php depot_mikado_contact_form7_text_styles_1 function */
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-number, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-date, .cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea, .cf7_custom_style_1 select.wpcf7-form-control.wpcf7-select, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-quiz { font-family: ;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/framework/modules/contactform7/custom-styles/contact-form.php depot_mikado_contact_form7_label_styles_1 function */
+.cf7_custom_style_1 p { font-family: ;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/framework/modules/contactform7/custom-styles/contact-form.php depot_mikado_contact_form7_button_styles_1 function */
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-submit { font-family: ;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/framework/modules/contactform7/custom-styles/contact-form.php depot_mikado_contact_form7_text_styles_2 function */
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-number, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-date, .cf7_custom_style_2 textarea.wpcf7-form-control.wpcf7-textarea, .cf7_custom_style_2 select.wpcf7-form-control.wpcf7-select, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-quiz { font-family: ;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/framework/modules/contactform7/custom-styles/contact-form.php depot_mikado_contact_form7_label_styles_2 function */
+.cf7_custom_style_2 p { font-family: ;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/framework/modules/contactform7/custom-styles/contact-form.php depot_mikado_contact_form7_button_styles_2 function */
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-submit { font-family: ;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/framework/modules/contactform7/custom-styles/contact-form.php depot_mikado_contact_form7_text_styles_3 function */
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-number, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-date, .cf7_custom_style_3 textarea.wpcf7-form-control.wpcf7-textarea, .cf7_custom_style_3 select.wpcf7-form-control.wpcf7-select, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-quiz { font-family: ;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/framework/modules/contactform7/custom-styles/contact-form.php depot_mikado_contact_form7_label_styles_3 function */
+.cf7_custom_style_3 p { font-family: ;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/framework/modules/contactform7/custom-styles/contact-form.php depot_mikado_contact_form7_button_styles_3 function */
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-submit { font-family: ;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/framework/modules/header/custom-styles/header.php depot_mikado_header_top_bar_styles function */
+.mkd-top-bar-background { height: 100px;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/framework/modules/header/custom-styles/header.php depot_mikado_fixed_header_styles function */
+.mkd-page-header .mkd-fixed-wrapper.fixed .mkd-menu-area { background-color: rgba(255, 255, 255, 1)!important;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/framework/modules/header/custom-styles/mobile-header.php depot_mikado_mobile_navigation_styles function */
+.mkd-mobile-header .mkd-mobile-nav > ul > li.menu-item > a, .mkd-mobile-header .mkd-mobile-nav > ul > li.menu-item .mobile_arrow, .mkd-mobile-header .mkd-mobile-nav .mkd-grid > ul > li > h5 { font-family: ;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/framework/modules/header/custom-styles/mobile-header.php depot_mikado_mobile_navigation_styles function */
+.mkd-mobile-header .mkd-mobile-nav ul ul li a, .mkd-mobile-header .mkd-mobile-nav ul ul li h5 { font-family: ;}
+
+/* generated in /home/qodeinteractive/depot/public_html/wp-content/themes/depot/framework/modules/title/custom-styles/title.php depot_mikado_title_area_typography_style function */
+.mkd-title .mkd-title-holder .mkd-page-title { font-size: 50px;}
+
