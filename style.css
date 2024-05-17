@@ -253,12 +253,12 @@ nav>ul {
     }
 
     #slide {
-        aspect-ratio: 16/7;
+        aspect-ratio: 16/10;
         margin: 20px 20px;
     }
 
     #slide::after {
-        aspect-ratio: 16/7;
+        aspect-ratio: 16/10;
         left: 20px;
         right: 20px;
     }
