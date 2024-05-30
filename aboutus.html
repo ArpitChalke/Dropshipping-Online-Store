@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>About Us</title>
+</head>
+
+<body>
+    <main>
+        <nav id="nav">
+            <div class="poppins-extrabold" id="logo">
+                SRK
+            </div>
+            <ul class="poppins">
+                <li><a href="index.html">Home</a></li>
+                <li><a>Pages</a></li>
+                <!-- <li><a>Shop</a></li> -->
+                <li><a>Portfolio</a></li>
+                <li  class="current-page"><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+        <nav class="navbar">
+            <div class="logo poppins-extrabold">SRK</div>
+            <div class="menu-button" id="menuButton">☰</div>
+            <div class="dropdown-menu" id="dropdownMenu">
+                <a href="index.html" class="dropdown-item">Home</a>
+                <a href="#" class="dropdown-item">Pages</a>
+                <a href="#" class="dropdown-item">Portfolio</a>
+                <a class="current-page" href="#" class="dropdown-item">About Us</a>
+                <!-- <a href="#" class="dropdown-item">Option 5</a> -->
+            </div>
+        </nav>
+        <div id="title-img">
+            <!-- <img src="data/images/about-title-img1.jpg" alt="About Us"> -->
+            <!-- <span>About Us</span> -->
+        </div>
+        <div id="about">
+            <div id="img-box">
+                <img src="data/images/about-img-1.jpg" alt="about image" id="about-img">
+            </div>
+            <div id="info">
+                <div id="info-titles">
+                    <ul>
+                        <!-- <button onclick="infoAbout()" >About Us</button>
+                        <button onclick="infoServices()" >Services</button>
+                        <button onclick="infoHistory()" >History</button> -->
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>History</li>
+                    </ul>
+                </div>
+                <div id="info-details">
+                    <div id="info-about">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minima dolor iure laboriosam qui facilis nemo nihil. Minus in provident aspernatur at delectus quo optio.</p>
+                    </div>
+                    <div id="info-services">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem eos quidem placeat corporis, aliquam praesentium qui odit veniam laborum quisquam voluptatibus culpa aliquid error. Explicabo, cumque minima! Accusantium.</p>
+                    </div>
+                    <div id="info-history">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, numquam magni. Reprehenderit odit deserunt laborum laboriosam, doloribus eum, incidunt porro maxime vero nulla minima?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer" class="poppins">
+            <div>
+                <p>Contact Us: srkdropshipping@gmail.com</p>
+            </div>
+            <div>
+                <span>Follow Us:</span>
+                <ul>
+                    <!-- <li>Follow Us</li> -->
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+    <script>
+        function infoAbout() {
+            document.getElementById("info-about").style.display = "block"
+            document.getElementById("info-services").style.display = "hidden"
+            document.getElementById("info-history").style.display = "hidden"
+        }
+        function infoServices() {
+            document.getElementById("info-services").style.display = "block"
+            document.getElementById("info-about").style.display = "hidden"
+            document.getElementById("info-history").style.display = "hidden"
+        }
+        function infoHistory() {
+            document.getElementById("info-about").style.display = "hidden"
+            document.getElementById("info-services").style.display = "hidden"
+            document.getElementById("info-history").style.display = "block"
+        }
+    </script>
+</body>

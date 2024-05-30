@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.flex{
+    display: flex;
+}
+
 main{
     width: 100vw;
     overflow: hidden;
