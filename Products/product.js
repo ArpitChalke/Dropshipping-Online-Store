@@ -18,6 +18,12 @@ function showDiv(divId) {
     divs.forEach(div => {
         div.style.display = 'none';
     });
+    const divbtn = document.querySelectorAll('.div-btn');
+    divbtn.forEach(button => {
+        button.style.cssText="color: black; background-color: light-gray";
+    });
     
     document.getElementById(divId).style.display = 'block';
+    document.getElementById(divId+"-btn").style.cssText = "color: white; background : black";
+
 }

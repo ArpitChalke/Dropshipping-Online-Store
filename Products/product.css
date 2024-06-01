@@ -1,4 +1,9 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
 #preview {
+    background-color: #fafafa;
     display: flex;
     flex-direction: row;
     /* flex-wrap: wrap; */
@@ -24,21 +29,21 @@
 /* #product-details>h2{
     margin: 30px 0;
 } */
-#product-details>p{
+#product-details>p {
     /* margin: 20px 0; */
     /* margin-top: 10px; */
     margin-bottom: 30px;
 }
 
-#product-details>p:nth-child(2){
+#product-details>p:nth-child(2) {
     font-size: 25px;
 }
 
-#product-details>p:nth-child(3){
+#product-details>p:nth-child(3) {
     font-size: 18px;
 }
 
-#orderbtn{
+#orderbtn {
     padding: 15px 25px;
     margin: 50px auto;
     background-color: green;
@@ -133,8 +138,10 @@ html {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .left-section {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 .right-section {
@@ -164,21 +171,37 @@ html {
 
 /* DESCRIPTON */
 
+.button-container {
+    padding: 0 100px;
+    background-color: #fafafa;
+    font-family: "Poppins", sans-serif;
+}
+
 .button-container>button {
-    padding: 10px 20px;
+    padding: 15px 30px;
     font-size: 16px;
     cursor: pointer;
-    border: 0;
+    border: 1px solid #e1e1e1;
 }
 
 .content-div {
+    font-family: "Poppins", sans-serif;
     display: none;
     border: 1px solid #ccc;
-    padding: 20px;
-    width: 300px;
-    text-align: center;
+    padding: 80px 100px;
+    /* height: 300px; */
+    /* text-align: center; */
+}
+
+.content-div>h3 {
+    margin: 20px 0;
+}
+
+.content-div>p {
+    color: #999b99;
 }
 
 #div1 {
-    display: block; /* Make div1 visible by default */
+    display: block;
+    /* Make div1 visible by default */
 }
